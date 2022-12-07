@@ -9,4 +9,4 @@ roleRef:
 subjects:
   - kind: ServiceAccount
     name: internal-service-request-service-account
-    namespace: system
+    namespace: internal-services
