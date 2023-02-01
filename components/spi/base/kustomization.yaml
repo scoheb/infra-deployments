@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
   - argocd-permissions.yaml
-  - https://github.com/redhat-appstudio/service-provider-integration-operator/config/openshift?ref=02c2b7042a1b8cfff1fc489a964cc3142bcefcbe
+  - https://github.com/metlos/service-provider-integration-operator/config/openshift?ref=79c96873a625c5a0f163666733eae128c2aa0c03
 
 images:
   - name:  quay.io/redhat-appstudio/service-provider-integration-operator
