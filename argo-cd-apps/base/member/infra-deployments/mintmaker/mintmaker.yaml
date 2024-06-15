@@ -12,7 +12,7 @@ spec:
               values:
                 sourceRoot: components/mintmaker
                 environment: staging
-                clusterDir: ""
+                clusterDir: "base"
           - list:
               elements:
                 - nameNormalized: stone-stage-p01
