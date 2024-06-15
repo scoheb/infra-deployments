@@ -4,4 +4,4 @@
   value: https://github.com/scoheb/infra-deployments.git
 - op: replace
   path: /spec/source/targetRevision
-  value: preview-mintmaker-pac-secret
+  value: preview-preview-mintmaker-pac-secret
