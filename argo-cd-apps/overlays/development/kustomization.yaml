@@ -13,6 +13,7 @@ resources:
   - ../../base/ui
   - ../../base/eaas
   - ../../base/toolchain-member
+  - ../../base/tenants-config
 
 patchesStrategicMerge:
   - delete-applications.yaml
