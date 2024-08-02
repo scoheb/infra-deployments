@@ -5,9 +5,6 @@ metadata:
 spec:
   syncPolicy:
     preserveResourcesOnDeletion: true
-    automated:
-      prune: true
-      selfHeal: true
   generators:
     - git:
         repoURL: https://github.com/scoheb/tenants-config
@@ -44,3 +41,15 @@ spec:
           jsonPointers:
             - /metadata/labels/release.appstudio.openshift.io~1author
             - /metadata/labels/release.appstudio.openshift.io~1standing-attribution
+      syncPolicy:
+        automated:
+          prune: true
+          selfHeal: true
+        syncOptions:
+          - CreateNamespace=true
+        retry:
+          limit: -1
+          backoff:
+            duration: 10s
+            factor: 2
+            maxDuration: 3m
