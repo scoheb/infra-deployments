@@ -16,7 +16,7 @@ spec:
       name: '{{path.basename}}-{{path[2]}}'
     spec:
       # The project is created using app-interface
-      #project: tenants-config
+      project: default
       source:
         path: '{{path}}'
         repoURL: https://github.com/scoheb/tenants-config
