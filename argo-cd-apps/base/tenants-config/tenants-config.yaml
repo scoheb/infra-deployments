@@ -23,7 +23,8 @@ spec:
         targetRevision: main
       destination:
         namespace: '{{path.basename}}'
-        name: '{{path[2]}}'
+        #name: '{{path[2]}}'
+        name: 'in-cluster-local'
       ignoreDifferences:
         - group: appstudio.redhat.com
           kind: Component
