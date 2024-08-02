@@ -10,7 +10,7 @@ spec:
         repoURL: https://github.com/scoheb/tenants-config
         revision: main
         directories:
-          - path: auto-generated/cluster/in-cluster-local/tenants/*
+          - path: auto-generated/cluster/local/tenants/*
   template:
     metadata:
       name: '{{path.basename}}-{{path[2]}}'
