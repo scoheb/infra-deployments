@@ -5,6 +5,9 @@ metadata:
 spec:
   syncPolicy:
     preserveResourcesOnDeletion: true
+    automated:
+      prune: true
+      selfHeal: true
   generators:
     - git:
         repoURL: https://github.com/scoheb/tenants-config
