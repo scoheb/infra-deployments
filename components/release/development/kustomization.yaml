@@ -4,6 +4,7 @@ resources:
   - ../base
   - ../base/monitor/development
   - https://github.com/scoheb/release-service/config/default?ref=72ea46d585b83bc03c1e21ef75a0fb228fdf476b
+  - release_service_config.yaml
 images:
   - name: quay.io/konflux-ci/release-service
     newName: quay.io/scoheb/release-service
