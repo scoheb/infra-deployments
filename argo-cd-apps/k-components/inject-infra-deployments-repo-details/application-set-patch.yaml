@@ -4,4 +4,4 @@
   value: https://github.com/scoheb/infra-deployments.git
 - op: replace
   path: /spec/template/spec/source/targetRevision
-  value: preview-release-service-config-by-env
+  value: preview-preview-release-service-config-by-env
