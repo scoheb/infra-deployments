@@ -18,5 +18,8 @@ namespace: mintmaker
 commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
+configurations:
+- kustomizeconfig.yaml
+
 components:
   - ../components/rh-certs
