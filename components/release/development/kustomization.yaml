@@ -5,14 +5,11 @@ resources:
   - ../base/monitor/development
   - https://github.com/konflux-ci/release-service/config/default?ref=d183c5f0a90b8894cc6983157051fafea1faf87e
   - release_service_config.yaml
-
 images:
   - name: quay.io/konflux-ci/release-service
-    newName: quay.io/konflux-ci/release-service
-    newTag: d183c5f0a90b8894cc6983157051fafea1faf87e
-
+    newName: quay.io/scoheb/release-service
+    newTag: 98ee4e231fdd
 namespace: release-service
-
 patches:
   - target:
       group: apps
